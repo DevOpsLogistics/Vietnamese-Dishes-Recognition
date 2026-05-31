@@ -1,0 +1,23 @@
+# Ignore datasets and loose images
+/train/
+/YOLO_Dataset/
+/NewDataset/
+*.jpg
+*.png
+*.jpeg
+*.zip
+
+# Ignore model files
+*.keras
+*.h5
+*.pb
+
+# Ignore temp scripts
+add_cache.py
+fix_mobilenet.py
+fix_collapse.py
+upgrade_model.py
+
+# Python
+__pycache__/
+*.pyc
